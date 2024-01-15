@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ::selection{
+            color: black;
+            background-color: cornflowerblue;
+        }
+        .demo::before,.demo::after{
+            content: '' ;
+            width: 100%;
+            height: 20px;
+            background-color: black;
+            color: gold;
+            display: inline-block;
+
+        }
+        input::placeholder{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+   <div class="demo">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, fugit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, fugit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, fugit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, fugit?</p>
+
+   </div> 
+   <input type="text" placeholder="Hello Everyone">
+</body>
+</html>

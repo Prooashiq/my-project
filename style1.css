@@ -1,0 +1,14 @@
+.dradient-style{
+    height: 400px;
+    width: 100%;
+    background-image: radial-gradient( circle,red,green,rgb(216, 17, 47));
+}
+.dradient-1{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right,red,gold,yellow);
+}
+.container{
+    max-width: 1000px;
+    background-color: teal;
+}

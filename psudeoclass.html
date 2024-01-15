@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo class </title>
+    <style>
+.demo p:nth-child(2n+1){
+background-color: bisque;
+color: black;
+display: inline;
+}
+li:nth-child(odd){
+    background-color: black;
+    color: white;
+    display: inline;
+}
+input::placeholder{
+    color: burlywood;
+}
+p::first-letter{
+color: red;
+font-size: 2rem;
+}
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Hello Every one">
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+
+
+    <ul>
+        <li>Home 1</li>
+        <li>Home 2</li>
+        <li>Home 3</li>
+        <li>Home 4</li>
+        <li>Home 5</li>
+    </ul>
+    <div class="demo">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    
+</body>
+</html>

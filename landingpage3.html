@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        /* Background Image */
+        main {
+            background: url('background.jpg') center/cover;
+            color: white;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        main {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Form Styling */
+        form {
+            margin-top: 30px;
+        }
+
+        input {
+            padding: 10px;
+            width: 60%;
+            font-size: 1em;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            padding: 15px 30px;
+            background-color: #27ae60;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background-color: #219954;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Interactive Landing Page</h1>
+    </header>
+
+    <main>
+        <h1>Welcome to Our World</h1>
+        <p>Explore and experience the extraordinary.</p>
+        <a href="#" class="cta-button">Get Started</a>
+
+        <!-- Prompt Section -->
+        <form>
+            <p>Subscribe to our newsletter for updates:</p>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="submit-button">Subscribe</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2024 Your Company Name
+    </footer>
+
+</body>
+</html>

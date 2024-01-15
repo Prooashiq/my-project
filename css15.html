@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class and pseudo elemant</title>
+    <style>
+        input{
+            padding: 10px;
+            font-size: 1rem;
+            width: 150px;
+        }
+        input:focus{
+            background-color:yellow;
+            color: black;
+        }
+        table, tr, td{
+            border: 1px solid black;
+        }
+        tr:nth-child(odd){
+            background-color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="enter your name">User Name <br/>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>nik</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>jak</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Anis</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Rik</td>
+            <td>22</td>
+        </tr>
+    </table>
+</body>
+
+</html>
